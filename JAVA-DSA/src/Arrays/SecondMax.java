@@ -15,16 +15,12 @@ public class SecondMax {
             } else if (arr[i] > smax && arr[i] != max) {
                 smax = arr[i];
             }
-
         }
-
         System.out.println("Second Max " + smax);
     }
 
     public static void main(String[] args) {
-
         int[] arr = {10, 50, 30, 80, 20};
-
         secondHighest(arr);
     }
 }

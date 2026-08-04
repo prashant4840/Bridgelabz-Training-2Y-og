@@ -11,14 +11,11 @@ public class LowestNum {
                 min = arr[i];
             }
         }
-
         System.out.println("Min " + min);
     }
 
     public static void main(String[] args) {
-
         int[] arr = {10, 50, 30, 80, 20};
-
         lowest(arr);
     }
 }

@@ -15,11 +15,8 @@ public class PrimeNum {
     }
 
     public static void main(String[] args) {
-
         int[] arr = {10, 7, 15, 11, 20, 13, 8};
-
         System.out.print("Prime Numbers = ");
-
         primeNumber(arr);
     }
 }

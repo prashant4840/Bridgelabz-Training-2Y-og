@@ -15,9 +15,7 @@ public class SecondLowest {
             } else if (arr[i] < smin && arr[i] != min) {
                 smin = arr[i];
             }
-
         }
-
         System.out.println("Second Lowest = " + smin);
     }
 
