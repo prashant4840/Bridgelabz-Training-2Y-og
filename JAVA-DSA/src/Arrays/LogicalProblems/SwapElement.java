@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.LogicalProblems;
 
 public class SwapElement {
     static void swap(int[] arr) {
