@@ -1,6 +1,4 @@
-package Arrays.leetcode;
-
-class Solution {
+class Leetcode_189 {
 
     public void rotate(int[] nums, int k) {
 
