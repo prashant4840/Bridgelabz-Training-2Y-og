@@ -1,3 +1,5 @@
+package Strings.leetcode.src;
+
 import java.util.*;
 public class Leetcode_350 {
     public static void main(String[] args) {

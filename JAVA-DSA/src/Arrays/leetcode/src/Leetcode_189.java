@@ -1,26 +1,22 @@
-class Leetcode_189 {
+import java.util.*;
 
-    public void rotate(int[] nums, int k) {
+public class Leetcode_189 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int[] nums=new int[n];
 
-        k = k % nums.length;
+        for(int i=0;i<n;i++) nums[i]=sc.nextInt();
 
-        int j = nums.length - 1;
+        int k=sc.nextInt();
+        k=k%n;
 
-        reverse(nums, 0, j);
-        reverse(nums, 0, k - 1);
-        reverse(nums, k, j);
-    }
+        int[] temp=new int[n];
 
-    private void reverse(int[] nums, int i, int j) {
+        for(int i=0;i<k;i++) temp[i]=nums[n-k+i];
+        for(int i=0;i<n-k;i++) temp[k+i]=nums[i];
+        for(int i=0;i<n;i++) nums[i]=temp[i];
 
-        while (i < j) {
-
-            int temp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = temp;
-
-            i++;
-            j--;
-        }
+        System.out.println(Arrays.toString(nums));
     }
 }

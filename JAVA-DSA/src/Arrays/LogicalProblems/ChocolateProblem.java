@@ -1,7 +1,5 @@
-package Arrays;
-
 public class ChocolateProblem {
-public static void main(String[] args) {
+    public static void main(String[] args) {
         int amount = 15;
         int price = 1;
         int neededWrappers = 3;

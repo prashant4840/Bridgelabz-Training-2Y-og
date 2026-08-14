@@ -1,9 +1,13 @@
+package Strings.leetcode.src;
+
 import java.util.*;
-public class Leetcode_1108 {
+public class Leetcode_258 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String address=sc.nextLine();
-        String result=address.replace(".", "[.]");
+
+        int num=sc.nextInt();
+        int result=1+(num-1)%9;
+
         System.out.println(result);
     }
 }
