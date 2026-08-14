@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733244b1-cbdb-469b-ad80-a705ecf167e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JAVA-DSA/.idea/JAVA-DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA-DSA/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA-DSA/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/Problem189.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/src/Leetcode_1108.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/src/Leetcode_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/src/Leetcode_1832.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/src/Leetcode_2540.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-DSA/src/Arrays/leetcode/src/Leetcode_350.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
